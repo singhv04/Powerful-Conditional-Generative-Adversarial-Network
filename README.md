@@ -22,4 +22,4 @@ The architecture of generator is inspired by U-Net: The architecture of the mode
 For discriminator, we use similar architecture as the baselines contractive path: a series of 4x4 convolutional layers with stride 2 with the number of channels being doubled after each downsampling. All convolution layers are followed by batch normalization, leaky ReLU activation with slope 0.2. After the last layer, a convolution is applied to map to a 1 dimensional output, followed by a sigmoid function to return a probability value of the input being real or fake.
 
 Sorry for not providing code as i am using it as research work so don't want to take any chance of copyright issues.
-Its implemented in pytorch fro scratch.
+Its implemented in pytorch from scratch.
